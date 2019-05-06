@@ -269,7 +269,7 @@ a:focus {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    max-width: 90em; /* 90 * 16px = 1440px */
+    max-width: 79.5em; /* 90 * 16px = 1440px */
 }
 
 /*
@@ -317,7 +317,6 @@ a:focus {
 .o-layout {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
 }
 
     .o-layout__item {
