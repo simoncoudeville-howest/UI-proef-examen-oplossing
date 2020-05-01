@@ -487,13 +487,20 @@ a:focus {
     align-items: center;
 }
 
-.c-header__nav {
+.c-header__nav,
+.c-header__cta {
     display: none;
 }
 
 @media (min-width: 992px) {
-    .c-header__nav {
+    .c-header__nav,
+    .c-header__cta {
         display: block;
+    }
+
+    .c-header__nav {
+        margin-left: auto;
+        margin-right: 20px;
     }
 }
 
