@@ -52,13 +52,7 @@ html {
  *
  * Customize the background color to match your design.
  */
-
-::-moz-selection {
-    background: #3385FF;
-    color: white;
-    text-shadow: none;
-}
-
+ 
 ::selection {
     background: #3385FF;
     color: white;
