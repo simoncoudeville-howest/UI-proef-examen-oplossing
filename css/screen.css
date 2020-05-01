@@ -499,8 +499,15 @@ a:focus {
     }
 
     .c-header__nav {
-        margin-left: auto;
         margin-right: 20px;
+        
+        /* solution 1 */
+        /* margin-left: auto; */
+
+        /* solution 2 */
+        display: flex;
+        flex-grow: 1;
+        justify-content: flex-end;        
     }
 }
 
